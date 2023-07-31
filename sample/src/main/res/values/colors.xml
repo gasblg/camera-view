@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="body_color">#bdbdbd</color>
+    <color name="button_color">#e53935</color>
+    <color name="border_color">@android:color/black</color>
+    <color name="case_color">#6d4c41</color>
+    <color name="model_color">#bdbdbd</color>
+    <color name="glass_color">#263d5afe</color>
+    <color name="hole_color">@android:color/white</color>
+
+    <color name="name_text_color">@android:color/black</color>
+    <color name="model_text_color">@android:color/black</color>
+    <color name="objective_text_color">@android:color/black</color>
+    <color name="settings_text_color">@android:color/black</color>
+</resources>

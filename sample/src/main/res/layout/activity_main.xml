@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sample.MainActivity">
+
+    <com.github.gasblg.cameraview.CameraView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:body_color="@color/body_color"
+        app:border_color="@color/border_color"
+        app:button_color="@color/button_color"
+        app:case_color="@color/case_color"
+        app:description="@string/lens_name"
+        app:glass_color="@color/glass_color"
+        app:hole_color="@color/hole_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:model_color="@color/model_color"
+        app:model_name="@string/model_name"
+        app:model_text_color="@color/model_text_color"
+        app:name="@string/camera_name"
+        app:name_text_color="@color/name_text_color"
+        app:objective_text_color="@color/objective_text_color"
+        app:settings_text_color="@color/settings_text_color"
+        app:show_settings="true" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
